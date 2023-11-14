@@ -11,21 +11,63 @@ add readme.md file
 try commit the changes in readme.text but it shows pull failed that close the visual studio, clone the repo and then add readme and commit the changes, it works:)
 go through every folder those created itself 
 
-3:15PM
+7:15PM
 Starting the bootstrap step
 select theme
 download bootstrap.css
 rename the original file bootstrap.css to bootstrap1.css
 
-3:25PM
 replace the code site.css
 change the _layout.cshtml
 
-3:49PM
 Run the website, everything fine;)
 
-4:00PM
 modify Layout.cshtml
 add a dropdown list named as content management
 run code!!! Everything goes well:)
 great relief!!
+
+11/14/2023
+2.1 Create the DB
+build the application only for the confirmation that there are no errors:)
+yes, its succeeded
+review appsetting.json and create the migration by using pacakage manager console
+It shows me error than I recognize that it is is kashishBooksStore project 
+
+
+9:00AM, 
+I will do this again but in .DataAccess
+as I had older version and i got confused then I used alot of commands 
+I install entity.FrameworkTools 
+
+9:15AM
+I think that I have to install package microfost.entityframewokrCore.tools-version 5.0.0
+but again it was not working 
+it works
+
+9:45AM 
+I commit it on github.
+UPDATE MY DATABASE
+
+10:11AM
+check th errors,it works
+adding migration and added to the  Db Context
+rerunthe migration and update the database
+starting the part-2 
+
+10:15AM
+modify the IRepository.cs so it can be used the category class to do all CRUD operations
+adding an entity
+
+11:09AM
+add folder categoryrepository and icategoryrepository modify both of them and follow all your instruction
+Complete the remaining modifications
+
+11:28AM
+ADDING A NEW INTERFACE NAMES AS isp_call.cs
+modify it and also install dapper for this.
+and adding a class sp_call.cs
+add a connection to database
+
+11:55AM
+ 
