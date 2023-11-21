@@ -90,4 +90,6 @@ Add covertype in the unitofwork and iunitofwork
 8:13PM
 CoverTypeController added same as category
 
+8:35PM
+Add covertype in layout, index in covertype folder, add covertype.js
 
