@@ -93,3 +93,6 @@ CoverTypeController added same as category
 8:35PM
 Add covertype in layout, index in covertype folder, add covertype.js
 
+8:43PM
+Add Upsert and now going to run the application.
+
