@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GurpreetsBooks.Models
 {
-    class CoverType
+    public class CoverType
     {
+        public int CoverTypeId { get; set; }
     }
 }

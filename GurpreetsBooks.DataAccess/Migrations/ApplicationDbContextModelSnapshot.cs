@@ -36,6 +36,18 @@ namespace GurpreetsBooks.DataAccess.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("GurpreetsBooks.Models.CoverType", b =>
+                {
+                    b.Property<int>("CoverTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.HasKey("CoverTypeId");
+
+                    b.ToTable("CoverType");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")

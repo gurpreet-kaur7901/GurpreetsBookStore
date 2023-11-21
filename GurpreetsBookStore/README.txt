@@ -69,5 +69,14 @@ modify it and also install dapper for this.
 and adding a class sp_call.cs
 add a connection to database
 
-11:55AM
- 
+11/20/2023
+7:00PM
+Part 3 Section1
+Add CoverType.cs in .models
+Add migartion
+
+7:10PM
+The entity type 'CoverType' requires a primary key to be defined. If you intended to use a keyless entity type, call 'HasNoKey' in 'OnModelCreating'. For more information on keyless entity types, see https://go.microsoft.com/fwlink/?linkid=2141943.
+Got this error when running the migration command again.
+add covertypeid
+and the error resolve
