@@ -80,3 +80,8 @@ The entity type 'CoverType' requires a primary key to be defined. If you intende
 Got this error when running the migration command again.
 add covertypeid
 and the error resolve
+
+7:39PM
+do repository step by following the category part of part2
+
+
