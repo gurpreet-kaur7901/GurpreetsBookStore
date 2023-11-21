@@ -89,6 +89,7 @@ Add covertype in the unitofwork and iunitofwork
 
 8:13PM
 CoverTypeController added same as category
+20231121000643_AddCoverTypeToDb
 
 8:35PM
 Add covertype in layout, index in covertype folder, add covertype.js
@@ -96,3 +97,8 @@ Add covertype in layout, index in covertype folder, add covertype.js
 8:43PM
 Add Upsert and now going to run the application.
 
+11/21/2023
+1:23PM
+
+Add Product files and repo with migration
+20231121183600_AddProductToDb
