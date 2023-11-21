@@ -84,4 +84,6 @@ and the error resolve
 7:39PM
 do repository step by following the category part of part2
 
+7:57PM
+Add covertype in the unitofwork and iunitofwork
 
