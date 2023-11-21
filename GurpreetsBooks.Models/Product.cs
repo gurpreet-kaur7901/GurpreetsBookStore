@@ -6,13 +6,13 @@ using System.Text;
 
 namespace GurpreetsBooks.Models
 {
-    class Product
+    public class Product
     {
         [Key]
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-        public string IBSN { get; set; }
+        public string ISBN { get; set; }
         public string Author { get; set; }
         [Required]
         [Range(1,10000)]
@@ -24,7 +24,7 @@ namespace GurpreetsBooks.Models
         public Category Category { get; set; }
         [Required]
         public int CoverTypeId { get; set; }
-        [ForeignKey("CoverTypeId")]
+        [ForeignKey("CategoryId")]
         public CoverType CoverType { get; set; }
 
     }
