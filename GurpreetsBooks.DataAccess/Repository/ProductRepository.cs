@@ -17,10 +17,6 @@ namespace GurpreetsBooks.DataAccess.Repository
             _db = db;
         }
 
-        public Product GeT(int v)
-        {
-            throw new NotImplementedException();
-        }
 
         public void Update(Product product)
         {
