@@ -1,4 +1,4 @@
-﻿11/13/2023
+2023/11/13
 6:50PM
 Create project again,
 did smothing wrong
@@ -27,7 +27,7 @@ add a dropdown list named as content management
 run code!!! Everything goes well:)
 great relief!!
 
-11/14/2023
+2023/11/14
 2.1 Create the DB
 build the application only for the confirmation that there are no errors:)
 yes, its succeeded
@@ -69,7 +69,7 @@ modify it and also install dapper for this.
 and adding a class sp_call.cs
 add a connection to database
 
-11/20/2023
+2023/11/20
 7:00PM
 Part 3 Section1
 Add CoverType.cs in .models
@@ -97,7 +97,7 @@ Add covertype in layout, index in covertype folder, add covertype.js
 8:43PM
 Add Upsert and now going to run the application.
 
-11/21/2023
+2023/11/21
 1:23PM
 
 Add Product files and repo with migration
