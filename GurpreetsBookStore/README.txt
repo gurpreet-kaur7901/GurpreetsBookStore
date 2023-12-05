@@ -102,3 +102,6 @@ Add Upsert and now going to run the application.
 
 Add Product files and repo with migration
 20231121183600_AddProductToDb
+
+2023/12/05
+Everything is working but when i add product item. it isn't display..
